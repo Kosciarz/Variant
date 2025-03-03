@@ -8,7 +8,7 @@
 
 // An example of the visitor pattern
 struct Visitor
-{
+{   
     void operator()(auto&& item) { std::cout << item << '\n'; }
 };
 

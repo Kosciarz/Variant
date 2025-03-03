@@ -62,7 +62,7 @@ public:
 
     HealthState OnEvent(const auto&, const auto&);
 
-private:
+  private:
     HealthState m_current_state;
     uint16_t m_current_health;
     uint16_t m_remaining_lives;

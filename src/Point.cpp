@@ -1,5 +1,5 @@
 #include "Point.hpp"
-
+    
 #include <iostream>
 
 Point::Point(double x, double y)
